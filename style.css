@@ -145,3 +145,36 @@ body{
 .lista__link a:hover {
     color: var(--botao-azul);
 }
+
+@media (max-width: 1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between ;
+        margin-bottom: 3em;
+    }
+
+    .container__caixa{
+        margin: 0;
+    }
+    
+    .dispositivos__lista{
+        flex-direction: column;
+    }
+
+    .rodape__lista{
+        flex-direction: column;
+    }
+
+    .container__descricao{
+        padding: 0;
+    }
+
+    .secundario{
+        margin: 0;
+    }
+
+    .principal{
+        background-image: none;
+    }
+}
