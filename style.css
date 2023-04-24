@@ -148,33 +148,32 @@ body{
 
 @media (max-width: 1200px){
     .container{
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between ;
-        margin-bottom: 3em;
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
     }
 
     .container__caixa{
-        margin: 0;
-    }
-    
-    .dispositivos__lista{
-        flex-direction: column;
-    }
-
-    .rodape__lista{
-        flex-direction: column;
-    }
-
-    .container__descricao{
-        padding: 0;
+        margin: 2em 2em;
     }
 
     .secundario{
         margin: 0;
+        text-align: center;
     }
 
-    .principal{
-        background-image: none;
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
     }
 }
